@@ -10,7 +10,7 @@ ${EMAILINPUT}       xpath=//*[@id='login']
 ${PASSWORDINPUT}    xpath=//*[@id='password']
 ${PAGELOGO}         xpath=//*[contains(@title, 'Logo Scouts Panel')]
 ${EXPECTED TITLE}   Scouts panel - sign in
-${HEADER OF BOX}    Scouts Panel
+${HEADER OF BOX}    Scouts panel
 
 *** Test Cases ***
 Login to the system
