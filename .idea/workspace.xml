@@ -48,6 +48,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TC2 log in title in header form" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="challenge_portfolio_pati_robotframework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\aromanenko\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;challenge_portfolio_pati_robotframework.test_login_rf.TC2 log in title in header form&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_login_rf.robot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="challenge_portfolio_pati_robotframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_login_rf.robot" />
+        <item itemvalue="Python.TC2 log in title in header form" />
         <item itemvalue="Python.Login to the system" />
       </list>
     </recent_temporary>
