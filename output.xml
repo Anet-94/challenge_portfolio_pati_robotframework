@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220912 21:13:00.858" rpa="false" schemaversion="3">
+<suite id="s1" name="Challenge Portfolio Pati Robotframework" source="C:\Users\aromanenko\OneDrive - LPP S.A\Dokumenty\GitHub\challenge_portfolio_pati_robotframework">
+<suite id="s1-s1" name="Test Login Rf" source="C:\Users\aromanenko\OneDrive - LPP S.A\Dokumenty\GitHub\challenge_portfolio_pati_robotframework\test_login_rf.robot">
+<test id="s1-s1-t1" name="Login to the system" line="16">
+<kw name="Open login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220912 21:13:01.012" level="INFO">Opening browser 'Chrome' to base url 'https://scouts-test.futbolkolektyw.pl/en'.</msg>
+<status status="PASS" starttime="20220912 21:13:01.012" endtime="20220912 21:13:03.145"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>${EXPECTED TITLE}</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220912 21:13:03.152" level="INFO">Page title is 'Scouts panel - sign in'.</msg>
+<status status="PASS" starttime="20220912 21:13:03.145" endtime="20220912 21:13:03.152"/>
+</kw>
+<status status="PASS" starttime="20220912 21:13:01.012" endtime="20220912 21:13:03.152"/>
+</kw>
+<kw name="Type in email">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${EMAILINPUT}</arg>
+<arg>user01@getnada.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220912 21:13:03.153" level="INFO">Typing text 'user01@getnada.com' into text field 'xpath=//*[@id='login']'.</msg>
+<status status="PASS" starttime="20220912 21:13:03.153" endtime="20220912 21:13:03.309"/>
+</kw>
+<status status="PASS" starttime="20220912 21:13:03.152" endtime="20220912 21:13:03.309"/>
+</kw>
+<kw name="Type in password">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${PASSWORDINPUT}</arg>
+<arg>Test-1234</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220912 21:13:03.310" level="INFO">Typing text 'Test-1234' into text field 'xpath=//*[@id='password']'.</msg>
+<status status="PASS" starttime="20220912 21:13:03.310" endtime="20220912 21:13:03.413"/>
+</kw>
+<status status="PASS" starttime="20220912 21:13:03.309" endtime="20220912 21:13:03.413"/>
+</kw>
+<kw name="Click on the Submit button">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${SIGNINBUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220912 21:13:03.414" level="INFO">Clicking element 'xpath=//*[contains(@type, 'submit')]'.</msg>
+<status status="PASS" starttime="20220912 21:13:03.413" endtime="20220912 21:13:03.454"/>
+</kw>
+<status status="PASS" starttime="20220912 21:13:03.413" endtime="20220912 21:13:03.454"/>
+</kw>
+<kw name="Assert dashboard">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${PAGELOGO}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220912 21:13:03.455" endtime="20220912 21:13:04.674"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>${HEADER OF BOX}</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20220912 21:13:04.789" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg timestamp="20220912 21:13:04.790" level="FAIL">Title should have been 'Scouts Panel' but was 'Scouts panel'.</msg>
+<status status="FAIL" starttime="20220912 21:13:04.674" endtime="20220912 21:13:04.792"/>
+</kw>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<arg>alert.png</arg>
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<status status="NOT RUN" starttime="20220912 21:13:04.792" endtime="20220912 21:13:04.792"/>
+</kw>
+<status status="FAIL" starttime="20220912 21:13:03.454" endtime="20220912 21:13:04.793"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220912 21:13:04.794" endtime="20220912 21:13:07.028"/>
+</kw>
+<status status="FAIL" starttime="20220912 21:13:01.012" endtime="20220912 21:13:07.028">Title should have been 'Scouts Panel' but was 'Scouts panel'.</status>
+</test>
+<doc>Suite description #automated tests for scout website</doc>
+<status status="FAIL" starttime="20220912 21:13:00.874" endtime="20220912 21:13:07.029"/>
+</suite>
+<status status="FAIL" starttime="20220912 21:13:00.860" endtime="20220912 21:13:07.031"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Challenge Portfolio Pati Robotframework">Challenge Portfolio Pati Robotframework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Login Rf">Challenge Portfolio Pati Robotframework.Test Login Rf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
