@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bbc53fc-bf68-40fd-acdb-425e36230c98" name="Changes" comment="Subtask 1 Robot framework">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ErrorPass.png" beforeDir="false" afterPath="$PROJECT_DIR$/ErrorPass.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_login_rf.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test_login_rf.robot" afterDir="false" />
-    </list>
+    <list default="true" id="5bbc53fc-bf68-40fd-acdb-425e36230c98" name="Changes" comment="Subtask 1 Robot framework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
