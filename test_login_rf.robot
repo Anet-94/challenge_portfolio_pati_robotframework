@@ -4,7 +4,7 @@ Documentation        Suite description #automated tests for scout website
 
 
 *** Variables ***
-${LOGIN URL}         https://scouts-test.futbolkolektyw.pl/en
+${LOGIN URL}         https://scouts.futbolkolektyw.pl/en/
 ${BROWSER}           Chrome
 
 ${TITLE LOGINPAGE}   Scouts panel - sign in
@@ -56,7 +56,7 @@ TC5 create player
     Type in email
     Type in password
     Click on the Submit button
-    Assert dashboard
+    Wait Until Element Is Visible    ${BUTTON ADDPLAYER}
     Click on the Add Player
     Type in name
     Type in surname
